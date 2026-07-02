@@ -488,3 +488,50 @@ blockquote{
     border-radius:8px;
 
 }
+/*==============================
+Example Box
+==============================*/
+
+.example-box{
+
+    background:#FFF8E8;
+
+    border-left:6px solid #D4A017;
+
+    padding:25px;
+
+    margin-top:25px;
+
+    border-radius:12px;
+
+}
+
+.example-box h4{
+
+    color:#8B5A2B;
+
+    margin-bottom:15px;
+
+    font-size:22px;
+
+    font-family:"Cinzel",serif;
+
+}
+
+/*==============================
+Success & Error Titles
+==============================*/
+
+.instruction-card h4{
+
+    margin-top:25px;
+
+    margin-bottom:15px;
+
+    color:#7A4E17;
+
+    font-size:22px;
+
+    font-family:"Cinzel",serif;
+
+}
