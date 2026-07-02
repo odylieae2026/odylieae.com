@@ -299,3 +299,120 @@ text-align:center;
     margin-left:25px;
     margin-top:15px;
 }
+/*==============================
+Instruction Sheet
+==============================*/
+
+.instruction-section{
+
+    background:#F6E8C3;
+
+    background-image:url("images/desert-bg.jpg");
+
+    background-size:cover;
+
+    background-position:center;
+
+    padding:100px 10%;
+
+}
+
+.instruction-container{
+
+    max-width:950px;
+
+    margin:auto;
+
+}
+
+.instruction-container h1{
+
+    font-size:60px;
+
+    text-align:center;
+
+    color:#7A4E17;
+
+    font-family:"Cinzel",serif;
+
+    letter-spacing:3px;
+
+}
+
+.instruction-container h2{
+
+    text-align:center;
+
+    color:#B57C34;
+
+    margin-top:10px;
+
+    font-size:34px;
+
+    font-family:"Cormorant Garamond",serif;
+
+}
+
+.subtitle{
+
+    text-align:center;
+
+    color:#6B4A25;
+
+    font-size:20px;
+
+    margin-bottom:40px;
+
+    font-style:italic;
+
+}
+
+.instruction-card{
+
+    background:rgba(255,248,232,.95);
+
+    border-radius:18px;
+
+    padding:35px;
+
+    margin-top:35px;
+
+    border:2px solid #D8B36C;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.12);
+
+}
+
+.instruction-card h3{
+
+    color:#8B5A2B;
+
+    margin-bottom:18px;
+
+    font-size:28px;
+
+    font-family:"Cinzel",serif;
+
+}
+
+.instruction-card p,
+
+.instruction-card li{
+
+    font-size:18px;
+
+    line-height:1.9;
+
+    color:#444;
+
+    font-family:"Poppins",sans-serif;
+
+}
+
+.instruction-card ul,
+
+.instruction-card ol{
+
+    margin-left:28px;
+
+}
