@@ -535,3 +535,68 @@ Success & Error Titles
     font-family:"Cinzel",serif;
 
 }
+/*==============================
+Important Rules
+==============================*/
+
+.rule-box{
+
+    background:#FFFDF6;
+
+    border-left:6px solid #D4A017;
+
+    margin-top:15px;
+
+    padding:18px 22px;
+
+    border-radius:10px;
+
+}
+
+.rule-box p{
+
+    margin:0;
+
+    font-size:18px;
+
+}
+
+/*==============================
+Educational Message
+==============================*/
+
+.final-message{
+
+    text-align:center;
+
+    background:linear-gradient(
+        180deg,
+        #FFF7DD,
+        #F8E2A8
+    );
+
+}
+
+.final-message h2{
+
+    font-size:42px;
+
+    color:#C98C00;
+
+    margin:20px 0;
+
+    font-family:"Cinzel",serif;
+
+}
+
+.ending{
+
+    margin-top:35px;
+
+    font-size:22px;
+
+    color:#7A4E17;
+
+    line-height:1.8;
+
+}
