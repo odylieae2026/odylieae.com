@@ -416,3 +416,75 @@ Instruction Sheet
     margin-left:28px;
 
 }
+
+/*==============================
+Board Spaces
+==============================*/
+
+.space-card{
+
+    margin-top:25px;
+
+    padding:25px;
+
+    border-radius:15px;
+
+}
+
+.space-card h4{
+
+    margin-bottom:15px;
+
+    font-size:24px;
+
+    font-family:"Cinzel",serif;
+
+}
+
+.yellow{
+
+    background:#FFF6D5;
+
+    border-left:8px solid #FFD54A;
+
+}
+
+.red{
+
+    background:#FFE5E5;
+
+    border-left:8px solid #E74C3C;
+
+}
+
+.green{
+
+    background:#EAF9E8;
+
+    border-left:8px solid #2ECC71;
+
+}
+
+.blue{
+
+    background:#E8F4FF;
+
+    border-left:8px solid #3498DB;
+
+}
+
+blockquote{
+
+    background:#fff;
+
+    border-left:5px solid #3498DB;
+
+    padding:15px;
+
+    margin:20px 0;
+
+    font-style:italic;
+
+    border-radius:8px;
+
+}
