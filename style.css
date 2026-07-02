@@ -182,3 +182,54 @@ font-size:32px;
 }
 
 max-width:900px;
+
+.game-container{
+display:flex;
+align-items:center;
+justify-content:space-between;
+gap:60px;
+flex-wrap:wrap;
+}
+
+.game-image{
+flex:1;
+min-width:300px;
+}
+
+.game-image img{
+width:100%;
+border-radius:20px;
+box-shadow:0 20px 40px rgba(0,0,0,.15);
+}
+
+.game-text{
+flex:1;
+min-width:300px;
+}
+
+.intro{
+font-size:18px;
+margin:25px 0;
+line-height:1.8;
+}
+
+.feature{
+background:#F5E9D8;
+padding:14px 18px;
+border-radius:12px;
+margin-bottom:15px;
+font-weight:500;
+color:#6B4E32;
+}
+
+@media(max-width:768px){
+
+.game-container{
+flex-direction:column;
+}
+
+.game-text{
+text-align:center;
+}
+
+}
