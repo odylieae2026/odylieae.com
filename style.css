@@ -278,3 +278,24 @@ text-align:center;
     padding-left: 20px;
     padding-bottom: 20px;
 }
+#instruction{
+    background:#f4ead7;
+}
+
+#instruction h3{
+    margin-top:35px;
+    color:#7A5932;
+    font-family:'Cinzel',serif;
+}
+
+#instruction p,
+#instruction li{
+    line-height:2;
+    font-size:17px;
+}
+
+#instruction ul,
+#instruction ol{
+    margin-left:25px;
+    margin-top:15px;
+}
