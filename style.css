@@ -600,3 +600,17 @@ Educational Message
     line-height:1.8;
 
 }
+.about h3{
+    margin-top:50px;
+    margin-bottom:20px;
+    text-align:center;
+    color:#7A5932;
+    font-family:'Cinzel',serif;
+    font-size:28px;
+}
+
+.about p{
+    max-width:900px;
+    margin:20px auto;
+    line-height:2;
+}
