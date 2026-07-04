@@ -705,3 +705,11 @@ h2{
 }
 
 }
+.about p,
+#instruction p,
+#instruction ul,
+#instruction ol,
+.faq p{
+    max-width:850px;
+    margin:20px auto;
+}
