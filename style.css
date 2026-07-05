@@ -1,3 +1,7 @@
+/* =========================
+   RESET
+========================= */
+
 *{
     margin:0;
     padding:0;
@@ -12,7 +16,12 @@ body{
     font-family:'Poppins',sans-serif;
     background:#F8F4EE;
     color:#5B4636;
+    line-height:1.8;
 }
+
+/* =========================
+   HERO
+========================= */
 
 .hero{
     height:100vh;
@@ -28,19 +37,18 @@ body{
     align-items:center;
 
     text-align:center;
-    position:relative;
 }
 
 .hero-content{
-    max-width:800px;
+    max-width:850px;
     padding:20px;
 }
 
 .brand{
-    letter-spacing:8px;
     color:#E8C98A;
-    margin-bottom:20px;
+    letter-spacing:8px;
     font-size:18px;
+    margin-bottom:20px;
 }
 
 .hero h1{
@@ -52,15 +60,15 @@ body{
 
 .hero h3{
     font-family:'Cormorant Garamond',serif;
-    color:white;
     font-size:34px;
+    color:white;
     margin-bottom:25px;
 }
 
 .subtitle{
     color:white;
-    line-height:32px;
     font-size:18px;
+    line-height:2;
     margin-bottom:45px;
 }
 
@@ -79,15 +87,22 @@ body{
     transform:translateY(-3px);
 }
 
+/* =========================
+   GENERAL
+========================= */
+
 section{
     padding:90px 12%;
 }
 
-h2{
+h1,h2{
     font-family:'Cinzel',serif;
-    font-size:42px;
-    color:#7A5932;
+}
+
+h2{
     text-align:center;
+    color:#7A5932;
+    font-size:42px;
 }
 
 .line{
@@ -95,621 +110,355 @@ h2{
     height:4px;
     background:#C69A56;
     margin:20px auto 50px;
-    border-radius:50px;
+    border-radius:30px;
 }
 
-.about p,
-.game p{
+/* =========================
+   ABOUT
+========================= */
+
+.about p{
     max-width:900px;
     margin:auto;
     text-align:center;
-    line-height:2;
     font-size:18px;
+    line-height:2;
 }
 
-.game img{
-    display:block;
-    width:80%;
-    max-width:700px;
-    margin:60px auto 0;
-    border-radius:18px;
+.quote{
+    max-width:850px;
+    margin:50px auto 0;
+    padding:25px;
+    text-align:center;
+    font-style:italic;
+    border-left:5px solid #C69A56;
+    background:#F5E9D8;
+    border-radius:10px;
+}
+
+/* =========================
+   GAME
+========================= */
+
+.game-container{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:60px;
+    flex-wrap:wrap;
+}
+
+.game-image{
+    flex:1;
+    min-width:300px;
+}
+
+.game-image img{
+    width:100%;
+    border-radius:20px;
     box-shadow:0 20px 40px rgba(0,0,0,.15);
 }
 
-#instruction{
-    background:#EFE5D6;
+.game-text{
+    flex:1;
+    min-width:300px;
 }
 
-.coming{
-    max-width:800px;
-    margin:auto;
+.intro{
+    font-size:18px;
+    line-height:1.9;
+    margin:25px 0;
+}
+
+.feature{
+    background:#F5E9D8;
+    padding:15px 18px;
+    margin-bottom:15px;
+    border-radius:12px;
+    font-weight:600;
+    color:#6B4E32;
+}
+/* =========================
+   GAME SECTION
+========================= */
+
+.game {
+    padding: 90px 8%;
+    background: #f7f9fb;
+}
+
+.game-container {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.game-image {
+    flex: 1;
+    min-width: 300px;
+}
+
+.game-image img {
+    width: 100%;
+    border-radius: 18px;
+    box-shadow: 0 15px 35px rgba(0,0,0,.15);
+}
+
+.game-text {
+    flex: 1;
+    min-width: 300px;
+}
+
+.game-text h2 {
+    font-family: "Cinzel", serif;
+    font-size: 42px;
+    color: #1f4e79;
+    margin-bottom: 10px;
+}
+
+.line {
+    width: 70px;
+    height: 4px;
+    background: #4aa3df;
+    margin: 20px 0;
+}
+
+.intro {
+    margin-bottom: 25px;
+    font-size: 18px;
+}
+
+.feature {
+    background: white;
+    padding: 14px 18px;
+    border-left: 5px solid #4aa3df;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,.08);
+}
+
+/* =========================
+   INSTRUCTION SECTION
+========================= */
+
+.instruction-section {
+    padding: 90px 6%;
+    background: #eef7fc;
+}
+
+.instruction-container {
+    max-width: 950px;
+    margin: auto;
+}
+
+.instruction-container h1 {
+    text-align: center;
+    font-family: "Cinzel", serif;
+    font-size: 44px;
+    color: #1f4e79;
+}
+
+.instruction-container h2 {
+    text-align: center;
+    margin-top: 10px;
+    color: #4aa3df;
+}
+
+.instruction-container .subtitle {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    color: #555;
+}
+
+.instruction-container hr {
+    border: none;
+    height: 2px;
+    background: #4aa3df;
+    margin-bottom: 35px;
+}
+
+.instruction-card {
+    background: white;
+    padding: 28px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,.08);
+}
+
+.instruction-card h3 {
+    color: #1f4e79;
+    margin-bottom: 15px;
+}
+
+.instruction-card h4 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #2c6b95;
+}
+
+.instruction-card p,
+.instruction-card li {
+    line-height: 1.9;
+    color: #444;
+}
+
+.instruction-card ul,
+.instruction-card ol {
+    padding-left: 25px;
+    margin-top: 10px;
+}
+
+/* Colored Space Cards */
+
+.space-card {
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+.yellow {
+    background: #fff7c7;
+}
+
+.red {
+    background: #ffe3e3;
+}
+
+.green {
+    background: #e6ffe9;
+}
+
+.blue {
+    background: #e5f2ff;
+}
+/* =========================
+   FAQ
+========================= */
+
+#faq{
+    background:#f8fcff;
+    padding:80px 10%;
     text-align:center;
-    font-size:20px;
-    line-height:2;
+}
+
+#faq h2{
+    font-family:'Cinzel', serif;
+    font-size:2.3rem;
+    color:#145374;
+    margin-bottom:50px;
 }
 
 .faq{
     background:white;
     padding:25px;
-    margin:30px auto;
-    max-width:900px;
-    border-radius:15px;
+    margin:20px auto;
+    max-width:800px;
+    border-radius:18px;
     box-shadow:0 10px 25px rgba(0,0,0,.08);
+    text-align:left;
 }
 
 .faq h3{
-    margin-bottom:15px;
-    color:#7A5932;
+    color:#145374;
+    margin-bottom:12px;
+    font-size:1.3rem;
 }
 
+.faq p{
+    color:#555;
+    line-height:1.8;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
 footer{
-    background:#5B4636;
+    background:#0b3d5c;
     color:white;
     text-align:center;
-    padding:40px;
+    padding:35px 20px;
 }
 
 footer p{
-    margin:10px 0;
+    margin:8px 0;
+    letter-spacing:1px;
 }
 
-@media(max-width:768px){
+/* =========================
+   BUTTON
+========================= */
 
-.hero h1{
-font-size:48px;
-}
-
-.hero h3{
-font-size:24px;
-}
-
-.subtitle{
-font-size:16px;
-}
-
-section{
-padding:70px 8%;
-}
-
-.game img{
-width:100%;
-}
-
-h2{
-font-size:32px;
-}
-
-.game-container{
-}
-
-display:flex;
-align-items:center;
-justify-content:space-between;
-gap:60px;
-flex-wrap:wrap;
-}
-
-.game-image{
-flex:1;
-min-width:300px;
-}
-
-.game-image img{
-width:100%;
-border-radius:20px;
-box-shadow:0 20px 40px rgba(0,0,0,.15);
-}
-
-.game-text{
-flex:1;
-min-width:300px;
-}
-
-.intro{
-font-size:18px;
-margin:25px 0;
-line-height:1.8;
-}
-
-.feature{
-background:#F5E9D8;
-padding:14px 18px;
-border-radius:12px;
-margin-bottom:15px;
-font-weight:500;
-color:#6B4E32;
-}
-
-@media(max-width:768px){
-
-.game-container{
-flex-direction:column;
-}
-
-.game-text{
-text-align:center;
-}
-
-}
-.accordion {
-    max-width: 900px;
-    margin: 50px auto;
-}
-
-.accordion-btn {
-    width: 100%;
-    padding: 18px 25px;
-    margin-bottom: 12px;
-    border: none;
-    border-radius: 12px;
-    background: #e9d2a6;
-    color: #5b4636;
-    font-size: 18px;
-    font-weight: 600;
-    cursor: pointer;
-    text-align: left;
-    transition: 0.3s;
-}
-
-.accordion-btn:hover {
-    background: #d7b37a;
-}
-
-.accordion-content {
-    background: white;
-    overflow: hidden;
-    max-height: 0;
-    transition: max-height .4s ease;
-    border-radius: 0 0 12px 12px;
-    padding: 0 20px;
-    margin-top: -10px;
-    margin-bottom: 15px;
-    box-shadow: 0 8px 20px rgba(0,0,0,.08);
-}
-
-.accordion-content p,
-.accordion-content li {
-    padding: 10px 0;
-    line-height: 1.8;
-}
-
-.accordion-content ul,
-.accordion-content ol {
-    padding-left: 20px;
-    padding-bottom: 20px;
-}
-#instruction{
-    background:#f4ead7;
-}
-
-#instruction h3{
-    margin-top:35px;
-    color:#7A5932;
-    font-family:'Cinzel',serif;
-}
-
-#instruction p,
-#instruction li{
-    line-height:2;
-    font-size:17px;
-}
-
-#instruction ul,
-#instruction ol{
-    margin-left:25px;
-    margin-top:15px;
-}
-/*==============================
-Instruction Sheet
-==============================*/
-
-.instruction-section{
-
-    background:#F6E8C3;
-
-    background-image:url("images/desert-bg.jpg");
-
-    background-size:cover;
-
-    background-position:center;
-
-    padding:100px 10%;
-
-}
-
-.instruction-container{
-
-    max-width:950px;
-
-    margin:auto;
-
-}
-
-.instruction-container h1{
-
-    font-size:60px;
-
-    text-align:center;
-
-    color:#7A4E17;
-
-    font-family:"Cinzel",serif;
-
-    letter-spacing:3px;
-
-}
-
-.instruction-container h2{
-
-    text-align:center;
-
-    color:#B57C34;
-
-    margin-top:10px;
-
-    font-size:34px;
-
-    font-family:"Cormorant Garamond",serif;
-
-}
-
-.subtitle{
-
-    text-align:center;
-
-    color:#6B4A25;
-
-    font-size:20px;
-
-    margin-bottom:40px;
-
-    font-style:italic;
-
-}
-
-.instruction-card{
-
-    background:rgba(255,248,232,.95);
-
-    border-radius:18px;
-
-    padding:35px;
-
-    margin-top:35px;
-
-    border:2px solid #D8B36C;
-
-    box-shadow:0 12px 30px rgba(0,0,0,.12);
-
-}
-
-.instruction-card h3{
-
-    color:#8B5A2B;
-
-    margin-bottom:18px;
-
-    font-size:28px;
-
-    font-family:"Cinzel",serif;
-
-}
-
-.instruction-card p,
-
-.instruction-card li{
-
-    font-size:18px;
-
-    line-height:1.9;
-
-    color:#444;
-
-    font-family:"Poppins",sans-serif;
-
-}
-
-.instruction-card ul,
-
-.instruction-card ol{
-
-    margin-left:28px;
-
-}
-
-/*==============================
-Board Spaces
-==============================*/
-
-.space-card{
-
-    margin-top:25px;
-
-    padding:25px;
-
-    border-radius:15px;
-
-}
-
-.space-card h4{
-
-    margin-bottom:15px;
-
-    font-size:24px;
-
-    font-family:"Cinzel",serif;
-
-}
-
-.yellow{
-
-    background:#FFF6D5;
-
-    border-left:8px solid #FFD54A;
-
-}
-
-.red{
-
-    background:#FFE5E5;
-
-    border-left:8px solid #E74C3C;
-
-}
-
-.green{
-
-    background:#EAF9E8;
-
-    border-left:8px solid #2ECC71;
-
-}
-
-.blue{
-
-    background:#E8F4FF;
-
-    border-left:8px solid #3498DB;
-
-}
-
-blockquote{
-
-    background:#fff;
-
-    border-left:5px solid #3498DB;
-
-    padding:15px;
-
-    margin:20px 0;
-
-    font-style:italic;
-
-    border-radius:8px;
-
-}
-/*==============================
-Example Box
-==============================*/
-
-.example-box{
-
-    background:#FFF8E8;
-
-    border-left:6px solid #D4A017;
-
-    padding:25px;
-
-    margin-top:25px;
-
-    border-radius:12px;
-
-}
-
-.example-box h4{
-
-    color:#8B5A2B;
-
-    margin-bottom:15px;
-
-    font-size:22px;
-
-    font-family:"Cinzel",serif;
-
-}
-
-/*==============================
-Success & Error Titles
-==============================*/
-
-.instruction-card h4{
-
-    margin-top:25px;
-
-    margin-bottom:15px;
-
-    color:#7A4E17;
-
-    font-size:22px;
-
-    font-family:"Cinzel",serif;
-
-}
-/*==============================
-Important Rules
-==============================*/
-
-.rule-box{
-
-    background:#FFFDF6;
-
-    border-left:6px solid #D4A017;
-
-    margin-top:15px;
-
-    padding:18px 22px;
-
-    border-radius:10px;
-
-}
-
-.rule-box p{
-
-    margin:0;
-
-    font-size:18px;
-
-}
-
-/*==============================
-Educational Message
-==============================*/
-
-.final-message{
-
-    text-align:center;
-
-    background:linear-gradient(
-        180deg,
-        #FFF7DD,
-        #F8E2A8
-    );
-
-}
-
-.final-message h2{
-
-    font-size:42px;
-
-    color:#C98C00;
-
-    margin:20px 0;
-
-    font-family:"Cinzel",serif;
-
-}
-
-.ending{
-
-    margin-top:35px;
-
-    font-size:22px;
-
-    color:#7A4E17;
-
-    line-height:1.8;
-
-}
-.about h3{
-    margin-top:50px;
-    margin-bottom:20px;
-    text-align:center;
-    color:#7A5932;
-    font-family:'Cinzel',serif;
-    font-size:28px;
-}
-
-.about p{
-    max-width:900px;
-    margin:20px auto;
-    line-height:2;
-}
-.quote{
-    margin:40px auto;
-    max-width:700px;
-    text-align:center;
-    font-style:italic;
-    font-size:22px;
-    color:#8B6A43;
-    border-left:4px solid #C69A56;
-    padding:20px;
-    background:#F8F1E5;
-    border-radius:10px;
-}
-/* ===========================
-   Mobile Responsive
-=========================== */
-
-@media screen and (max-width:768px){
-
-section{
-    padding:60px 25px;
-}
-
-/* Main Title */
-.hero h1{
-    font-size:48px;
-    line-height:1.2;
-}
-
-.hero h3{
-    font-size:26px;
-}
-
-.subtitle{
-    font-size:16px;
-    line-height:1.8;
-}
-
-/* Section Titles */
-h2{
-    font-size:32px;
-    line-height:1.3;
-    margin-bottom:15px;
-}
-
-.about h3,
-#instruction h3{
-    font-size:24px;
-    line-height:1.5;
-    margin-top:35px;
-    margin-bottom:15px;
-}
-
-/* Paragraphs */
-.about p,
-#instruction p,
-#instruction li,
-.faq p{
-    font-size:17px;
-    line-height:2;
-    max-width:100%;
-}
-
-/* Lists */
-#instruction ul,
-#instruction ol{
-    padding-left:25px;
-    margin-top:15px;
-    margin-bottom:25px;
-}
-
-/* Game Section */
-.game-container{
-    flex-direction:column;
-    gap:30px;
-}
-
-.game-text{
-    text-align:center;
-}
-
-.feature{
-    font-size:16px;
-}
-
-/* Buttons */
 .btn{
-    padding:14px 30px;
-    font-size:16px;
+    display:inline-block;
+    margin-top:30px;
+    padding:14px 32px;
+    background:#2a9df4;
+    color:white;
+    text-decoration:none;
+    border-radius:50px;
+    font-weight:600;
+    transition:.3s;
 }
 
+.btn:hover{
+    background:#187bcd;
+    transform:translateY(-3px);
 }
-.about p,
-#instruction p,
-#instruction ul,
-#instruction ol,
-.faq p{
-    max-width:850px;
-    margin:20px auto;
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width:768px){
+
+    .hero h1{
+        font-size:2.5rem;
+    }
+
+    .hero h3{
+        font-size:1.4rem;
+    }
+
+    .hero .subtitle{
+        font-size:1rem;
+        width:95%;
+    }
+
+    .game-container{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .game-image img{
+        width:100%;
+        max-width:350px;
+    }
+
+    .instruction-container{
+        width:95%;
+        padding:25px;
+    }
+
+    .instruction-card{
+        padding:22px;
+    }
+
+    .example-box,
+    .rule-box,
+    .space-card{
+        padding:18px;
+    }
+
+    h1{
+        font-size:2rem;
+    }
+
+    h2{
+        font-size:1.7rem;
+    }
 }
